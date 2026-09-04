@@ -197,7 +197,7 @@ export default function App() {
   // Fetch questions from API
   // =========================
   useEffect(function () {
-    fetch("http://localhost:8000/questions")
+    fetch(`${process.env.PUBLIC_URL}/questions.json`)
       .then((res) => {
         if (!res.ok) {
           throw new Error("Something went wrong");
@@ -207,7 +207,7 @@ export default function App() {
       .then((data) => {
         dispatch({
           type: "dataReceived",
-          payload: data,
+          payload: data.questions,
         });
       })
       .catch(() => {
@@ -249,6 +249,12 @@ export default function App() {
       payload: filteredQuestions,
     });
   }
+  useEffect(
+    function () {
+      window.scrollTo(0, 0);
+    },
+    [status],
+  );
 
   return (
     <div className="app">

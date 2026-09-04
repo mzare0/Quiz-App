@@ -39,6 +39,7 @@
 
 html {
   font-size: 62.5%;
+
   font-family:
     "Inter",
     -apple-system,
@@ -46,7 +47,7 @@ html {
     "Segoe UI",
     sans-serif;
 
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 body {
@@ -78,7 +79,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 
   position: relative;
 }
@@ -1312,6 +1313,7 @@ progress::-moz-progress-bar {
 
   .app {
     min-height: calc(100vh - 3.2rem);
+    justify-content: flex-start;
   }
 
   .app-header {
