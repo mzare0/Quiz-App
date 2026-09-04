@@ -6,7 +6,7 @@ Users can test their knowledge of **React, JavaScript, and Next.js** by selectin
 
 ## 🎥 Live Demo
 
-> **🔗 [View Live Demo](#)** _(Add your deployed link here)_
+> **🔗 [https://mzare0.github.io/Quiz-App/]**
 
 ## 📸 Screenshots
 
