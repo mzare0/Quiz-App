@@ -1,0 +1,552 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "category": "react",
+      "difficulty": "easy",
+      "question": "What is React?",
+      "options": [
+        "A JavaScript library",
+        "A database",
+        "A programming language",
+        "An operating system"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "id": 2,
+      "category": "react",
+      "difficulty": "easy",
+      "question": "What is the fundamental building block of React apps?",
+      "options": ["Components", "Blocks", "Functions", "Effects"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "id": 3,
+      "category": "react",
+      "difficulty": "easy",
+      "question": "How do you pass data from a parent component to a child?",
+      "options": ["State", "Props", "Reducer", "Effect"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "id": 4,
+      "category": "react",
+      "difficulty": "easy",
+      "question": "Which syntax is commonly used to describe UI in React?",
+      "options": ["HTML", "JSX", "SQL", "XML"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "id": 5,
+      "category": "react",
+      "difficulty": "easy",
+      "question": "Which hook is used to create state?",
+      "options": ["useEffect", "useRef", "useState", "useMemo"],
+      "correctOption": 2,
+      "points": 10
+    },
+
+    {
+      "id": 6,
+      "category": "react",
+      "difficulty": "medium",
+      "question": "What triggers a React component to re-render?",
+      "options": [
+        "Updating state",
+        "Changing CSS",
+        "Adding an event listener",
+        "Creating a variable"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "id": 7,
+      "category": "react",
+      "difficulty": "medium",
+      "question": "Which hook is commonly used for side effects?",
+      "options": ["useState", "useEffect", "useRef", "useId"],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "id": 8,
+      "category": "react",
+      "difficulty": "medium",
+      "question": "What is the purpose of the key prop when rendering lists?",
+      "options": [
+        "To style elements",
+        "To identify elements between renders",
+        "To create state",
+        "To handle events"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "id": 9,
+      "category": "react",
+      "difficulty": "medium",
+      "question": "Which hook can store a mutable value without causing a re-render?",
+      "options": ["useState", "useEffect", "useRef", "useReducer"],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "id": 10,
+      "category": "react",
+      "difficulty": "medium",
+      "question": "How does data normally flow in React?",
+      "options": [
+        "Children to parents",
+        "Parents to children",
+        "Both directions automatically",
+        "Randomly"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+
+    {
+      "id": 11,
+      "category": "react",
+      "difficulty": "hard",
+      "question": "When should you use useMemo?",
+      "options": [
+        "For every variable",
+        "To memoize expensive calculations when appropriate",
+        "To replace useState",
+        "To fetch data"
+      ],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "id": 12,
+      "category": "react",
+      "difficulty": "hard",
+      "question": "What is a stale closure in React?",
+      "options": [
+        "A CSS problem",
+        "A function using outdated captured values",
+        "A failed API request",
+        "A missing component"
+      ],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "id": 13,
+      "category": "react",
+      "difficulty": "hard",
+      "question": "Why should state updates be treated as immutable?",
+      "options": [
+        "To make CSS faster",
+        "To allow React to detect changes reliably",
+        "Because JavaScript requires it",
+        "To prevent JSX"
+      ],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "id": 14,
+      "category": "react",
+      "difficulty": "hard",
+      "question": "What problem does React.memo primarily help with?",
+      "options": [
+        "Preventing unnecessary component renders",
+        "Fetching API data",
+        "Creating routes",
+        "Managing forms"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "id": 15,
+      "category": "react",
+      "difficulty": "hard",
+      "question": "What is a reducer typically used for?",
+      "options": [
+        "Complex state logic",
+        "Styling components",
+        "Loading images",
+        "Creating JSX"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+
+    {
+      "id": 16,
+      "category": "javascript",
+      "difficulty": "easy",
+      "question": "Which keyword declares a block-scoped variable that can be reassigned?",
+      "options": ["const", "let", "static", "define"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "id": 17,
+      "category": "javascript",
+      "difficulty": "easy",
+      "question": "Which method adds an item to the end of an array?",
+      "options": ["push", "pop", "shift", "unshift"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "id": 18,
+      "category": "javascript",
+      "difficulty": "easy",
+      "question": "Which value represents an intentionally empty value?",
+      "options": ["undefined", "null", "empty", "voided"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "id": 19,
+      "category": "javascript",
+      "difficulty": "easy",
+      "question": "Which operator checks both value and type?",
+      "options": ["==", "=", "===", "!="],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "id": 20,
+      "category": "javascript",
+      "difficulty": "easy",
+      "question": "Which method converts JSON text into a JavaScript object?",
+      "options": [
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.object()",
+        "JSON.convert()"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+
+    {
+      "id": 21,
+      "category": "javascript",
+      "difficulty": "medium",
+      "question": "What does the map() method return?",
+      "options": [
+        "The original array",
+        "A new array",
+        "A boolean",
+        "An object"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "id": 22,
+      "category": "javascript",
+      "difficulty": "medium",
+      "question": "What is a closure?",
+      "options": [
+        "A loop",
+        "A function with access to its lexical scope",
+        "A class",
+        "An object method"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "id": 23,
+      "category": "javascript",
+      "difficulty": "medium",
+      "question": "Which method creates a new array containing elements that pass a test?",
+      "options": ["map()", "filter()", "reduce()", "find()"],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "id": 24,
+      "category": "javascript",
+      "difficulty": "medium",
+      "question": "What does destructuring allow you to do?",
+      "options": [
+        "Extract values from arrays or objects",
+        "Delete variables",
+        "Create classes",
+        "Compile JavaScript"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "id": 25,
+      "category": "javascript",
+      "difficulty": "medium",
+      "question": "Which method combines array elements into a single value?",
+      "options": ["map()", "filter()", "reduce()", "some()"],
+      "correctOption": 2,
+      "points": 20
+    },
+
+    {
+      "id": 26,
+      "category": "javascript",
+      "difficulty": "hard",
+      "question": "What is the event loop responsible for?",
+      "options": [
+        "Handling asynchronous callbacks",
+        "Creating HTML",
+        "Compiling CSS",
+        "Declaring variables"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "id": 27,
+      "category": "javascript",
+      "difficulty": "hard",
+      "question": "What is the output type of typeof null?",
+      "options": ["null", "undefined", "object", "boolean"],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "id": 28,
+      "category": "javascript",
+      "difficulty": "hard",
+      "question": "What does Promise.all() do?",
+      "options": [
+        "Runs promises sequentially",
+        "Waits for all promises to fulfill",
+        "Cancels promises",
+        "Creates a single promise from a string"
+      ],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "id": 29,
+      "category": "javascript",
+      "difficulty": "hard",
+      "question": "What is hoisting?",
+      "options": [
+        "Moving CSS rules",
+        "JavaScript's handling of declarations before execution",
+        "Copying objects",
+        "Creating promises"
+      ],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "id": 30,
+      "category": "javascript",
+      "difficulty": "hard",
+      "question": "What is the main difference between == and ===?",
+      "options": [
+        "There is no difference",
+        "=== also checks type",
+        "== only works with strings",
+        "=== converts values automatically"
+      ],
+      "correctOption": 1,
+      "points": 30
+    },
+
+    {
+      "id": 31,
+      "category": "nextjs",
+      "difficulty": "easy",
+      "question": "What is Next.js?",
+      "options": [
+        "A React framework",
+        "A database",
+        "A CSS framework",
+        "A programming language"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "id": 32,
+      "category": "nextjs",
+      "difficulty": "easy",
+      "question": "Which file is commonly used to define the root layout in the App Router?",
+      "options": ["page.js", "layout.js", "index.js", "root.css"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "id": 33,
+      "category": "nextjs",
+      "difficulty": "easy",
+      "question": "Which folder is used by the Next.js App Router?",
+      "options": ["src", "pages", "app", "routes"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "id": 34,
+      "category": "nextjs",
+      "difficulty": "easy",
+      "question": "Which component is used for client-side navigation in Next.js?",
+      "options": ["RouterLink", "Link", "Navigate", "NextLink"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "id": 35,
+      "category": "nextjs",
+      "difficulty": "easy",
+      "question": "What does a page.js file represent in the App Router?",
+      "options": [
+        "A route UI",
+        "A database",
+        "A global stylesheet",
+        "An API server"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+
+    {
+      "id": 36,
+      "category": "nextjs",
+      "difficulty": "medium",
+      "question": "What is a Server Component in Next.js?",
+      "options": [
+        "A component rendered on the server by default",
+        "A CSS component",
+        "A database table",
+        "A browser extension"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "id": 37,
+      "category": "nextjs",
+      "difficulty": "medium",
+      "question": "Which directive makes a component a Client Component?",
+      "options": [
+        "\"use client\"",
+        "\"client\"",
+        "\"use browser\"",
+        "\"client component\""
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "id": 38,
+      "category": "nextjs",
+      "difficulty": "medium",
+      "question": "Where are dynamic route segments commonly written?",
+      "options": ["[id]", "{id}", "(id)", "<id>"],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "id": 39,
+      "category": "nextjs",
+      "difficulty": "medium",
+      "question": "What is the purpose of loading.js?",
+      "options": [
+        "Define a loading UI",
+        "Load JavaScript manually",
+        "Create a database",
+        "Define environment variables"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "id": 40,
+      "category": "nextjs",
+      "difficulty": "medium",
+      "question": "What is the purpose of error.js in the App Router?",
+      "options": [
+        "Handle errors for a route segment",
+        "Create API routes",
+        "Load CSS",
+        "Create dynamic routes"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+
+    {
+      "id": 41,
+      "category": "nextjs",
+      "difficulty": "hard",
+      "question": "What is the main benefit of Server Components?",
+      "options": [
+        "They can reduce client-side JavaScript",
+        "They always eliminate servers",
+        "They replace React",
+        "They only work with CSS"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "id": 42,
+      "category": "nextjs",
+      "difficulty": "hard",
+      "question": "What is a Route Handler in the App Router?",
+      "options": [
+        "A way to create request handlers such as GET and POST",
+        "A CSS file",
+        "A React hook",
+        "A database schema"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "id": 43,
+      "category": "nextjs",
+      "difficulty": "hard",
+      "question": "Which file can define middleware behavior in a Next.js project?",
+      "options": ["middleware.js", "server.js", "router.js", "next-server.js"],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "id": 44,
+      "category": "nextjs",
+      "difficulty": "hard",
+      "question": "What is Incremental Static Regeneration used for?",
+      "options": [
+        "Updating statically generated content without rebuilding the entire site",
+        "Replacing React state",
+        "Creating CSS animations",
+        "Managing browser cookies"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "id": 45,
+      "category": "nextjs",
+      "difficulty": "hard",
+      "question": "What is the purpose of generateStaticParams?",
+      "options": [
+        "Generate parameters for statically rendered dynamic routes",
+        "Create client-side state",
+        "Create API authentication",
+        "Load environment variables"
+      ],
+      "correctOption": 0,
+      "points": 30
+    }
+  ]
+}

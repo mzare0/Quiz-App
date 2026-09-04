@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# 🧠 Dev Quiz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and interactive quiz application built with **React**.
 
-## Available Scripts
+Users can test their knowledge of **React, JavaScript, and Next.js** by selecting a category and difficulty level.
 
-In the project directory, you can run:
+## 🎥 Live Demo
 
-### `npm start`
+> **🔗 [View Live Demo](#)** _(Add your deployed link here)_
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📸 Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Start Screen
 
-### `npm test`
+![Start Screen](./screenshots/start.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Quiz Screen
 
-### `npm run build`
+![Quiz Screen](./screenshots/quiz.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Result Screen
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Result Screen](./screenshots/result.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ✨ Features
 
-### `npm run eject`
+- 🎯 Choose quiz category: React, JavaScript, Next.js
+- 📊 Choose difficulty: Easy, Medium, Hard
+- ⭐ Score system based on question difficulty
+- ⏱️ Countdown timer
+- 🧭 Question navigation
+- ✅ Track answered and unanswered questions
+- ⭐ Mark questions for review
+- 📚 Review incorrect and unanswered questions after finishing
+- 🏆 High score tracking
+- 🔄 Restart quiz with a new category and difficulty
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Built With
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React
+- JavaScript
+- CSS
+- React Hooks
+- useReducer
+- JSON Server
+- Fetch API
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚙️ Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+Run the React app:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Run JSON Server:
 
-### Code Splitting
+```bash
+npx json-server --watch data/questions.json --port 8000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 👨‍💻 Author
 
-### Analyzing the Bundle Size
+**Mobina Zare**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📧 Email: [itsmobinazare@gmail.com]
+💼 LinkedIn: https://www.linkedin.com/in/mobina-zare-9345122b5
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Built with ❤️ using React.
